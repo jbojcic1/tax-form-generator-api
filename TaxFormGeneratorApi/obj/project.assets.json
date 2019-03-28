@@ -12096,11 +12096,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jbojcic/RiderProjects/TaxFormGeneratorApi/TaxFormGeneratorApi/TaxFormGeneratorApi.csproj",
+      "projectUniqueName": "/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/TaxFormGeneratorApi.csproj",
       "projectName": "TaxFormGeneratorApi",
-      "projectPath": "/Users/jbojcic/RiderProjects/TaxFormGeneratorApi/TaxFormGeneratorApi/TaxFormGeneratorApi.csproj",
+      "projectPath": "/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/TaxFormGeneratorApi.csproj",
       "packagesPath": "/Users/jbojcic/.nuget/packages/",
-      "outputPath": "/Users/jbojcic/RiderProjects/TaxFormGeneratorApi/TaxFormGeneratorApi/obj/",
+      "outputPath": "/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

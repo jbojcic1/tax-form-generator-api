@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/TaxFormGeneratorApi.csproj",
-    "projectName": "TaxFormGeneratorApi",
-    "projectPath": "/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/TaxFormGeneratorApi.csproj",
-    "outputPath": "/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/obj/",
+    "projectUniqueName": "/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Dal/TaxFormGeneratorApi.Dal.csproj",
+    "projectName": "TaxFormGeneratorApi.Dal",
+    "projectPath": "/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Dal/TaxFormGeneratorApi.Dal.csproj",
+    "outputPath": "/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Dal/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -26,17 +26,6 @@
   "frameworks": {
     "netcoreapp2.2": {
       "dependencies": {
-        "Microsoft.AspNetCore.App": {
-          "suppressParent": "All",
-          "target": "Package",
-          "version": "[2.2.0, )",
-          "autoReferenced": true
-        },
-        "Microsoft.AspNetCore.Razor.Design": {
-          "suppressParent": "All",
-          "target": "Package",
-          "version": "[2.2.0, )"
-        },
         "Microsoft.NETCore.App": {
           "suppressParent": "All",
           "target": "Package",

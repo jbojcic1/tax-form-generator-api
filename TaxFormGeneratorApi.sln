@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxFormGeneratorApi", "TaxFormGeneratorApi\TaxFormGeneratorApi.csproj", "{7DC7F87E-2D86-41B1-A210-6C5944E0BD2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxFormGeneratorApi.Bll", "TaxFormGeneratorApi.Bll\TaxFormGeneratorApi.Bll.csproj", "{55636DD6-C087-4301-9535-49C391345AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxFormGeneratorApi.Dal", "TaxFormGeneratorApi.Dal\TaxFormGeneratorApi.Dal.csproj", "{AD38BCC8-D949-45FD-83EE-37AFB3C73CEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{7DC7F87E-2D86-41B1-A210-6C5944E0BD2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DC7F87E-2D86-41B1-A210-6C5944E0BD2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DC7F87E-2D86-41B1-A210-6C5944E0BD2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55636DD6-C087-4301-9535-49C391345AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55636DD6-C087-4301-9535-49C391345AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55636DD6-C087-4301-9535-49C391345AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55636DD6-C087-4301-9535-49C391345AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD38BCC8-D949-45FD-83EE-37AFB3C73CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD38BCC8-D949-45FD-83EE-37AFB3C73CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD38BCC8-D949-45FD-83EE-37AFB3C73CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD38BCC8-D949-45FD-83EE-37AFB3C73CEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
