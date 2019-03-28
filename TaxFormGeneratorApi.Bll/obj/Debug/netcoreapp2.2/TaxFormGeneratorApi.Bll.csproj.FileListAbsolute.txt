@@ -1,0 +1,9 @@
+/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Bll/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.Bll.deps.json
+/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Bll/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.Bll.dll
+/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Bll/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.Bll.pdb
+/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Bll/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.Bll.csprojAssemblyReference.cache
+/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Bll/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.Bll.csproj.CoreCompileInputs.cache
+/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Bll/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.Bll.AssemblyInfoInputs.cache
+/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Bll/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.Bll.AssemblyInfo.cs
+/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Bll/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.Bll.dll
+/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Bll/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.Bll.pdb

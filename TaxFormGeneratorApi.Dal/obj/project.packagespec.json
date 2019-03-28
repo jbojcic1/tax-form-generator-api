@@ -14,7 +14,11 @@
     ],
     "frameworks": {
       "netcoreapp2.2": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Bll/TaxFormGeneratorApi.Bll.csproj": {
+            "projectPath": "/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Bll/TaxFormGeneratorApi.Bll.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -26,11 +30,19 @@
   "frameworks": {
     "netcoreapp2.2": {
       "dependencies": {
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[2.2.3, )"
+        },
         "Microsoft.NETCore.App": {
           "suppressParent": "All",
           "target": "Package",
           "version": "[2.2.0, )",
           "autoReferenced": true
+        },
+        "Npgsql.EntityFrameworkCore.PostgreSQL": {
+          "target": "Package",
+          "version": "[2.2.0, )"
         }
       },
       "imports": [

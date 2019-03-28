@@ -14,7 +14,11 @@
     ],
     "frameworks": {
       "netcoreapp2.2": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Dal/TaxFormGeneratorApi.Dal.csproj": {
+            "projectPath": "/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Dal/TaxFormGeneratorApi.Dal.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
