@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using TaxFormGeneratorApi.Bll;
+using TaxFormGeneratorApi.Domain;
 
-namespace TaxFormGeneratorApi.Dal.Database.Configurations
+namespace TaxFormGeneratorApi.Dal.Configurations
 {
     public class UserConfiguration: IEntityTypeConfiguration<User>
     {

@@ -25,9 +25,9 @@
       "TaxFormGeneratorApi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.2.0",
-          "Microsoft.AspNetCore.Razor.Design": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "2.2.3",
           "Microsoft.NETCore.App": "2.2.0",
-          "TaxFormGeneratorApi.Dal": "1.0.0"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "2.2.0"
         },
         "runtime": {
           "TaxFormGeneratorApi.dll": {}
@@ -153,27 +153,6 @@
         }
       },
       "System.ValueTuple/4.5.0": {},
-      "TaxFormGeneratorApi.Bll/1.0.0": {
-        "runtime": {
-          "TaxFormGeneratorApi.Bll.dll": {}
-        },
-        "compile": {
-          "TaxFormGeneratorApi.Bll.dll": {}
-        }
-      },
-      "TaxFormGeneratorApi.Dal/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.2.3",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "2.2.0",
-          "TaxFormGeneratorApi.Bll": "1.0.0"
-        },
-        "runtime": {
-          "TaxFormGeneratorApi.Dal.dll": {}
-        },
-        "compile": {
-          "TaxFormGeneratorApi.Dal.dll": {}
-        }
-      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
@@ -3369,16 +3348,6 @@
       "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
-    },
-    "TaxFormGeneratorApi.Bll/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "TaxFormGeneratorApi.Dal/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",

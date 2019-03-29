@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using TaxFormGeneratorApi.Bll;
-using TaxFormGeneratorApi.Dal.Database.Configurations;
+using TaxFormGeneratorApi.Domain;
+using TaxFormGeneratorApi.Dal.Configurations;
 
-namespace TaxFormGeneratorApi.Dal.Database
+namespace TaxFormGeneratorApi.Dal
 {
     public class TaxFormGeneratorContext : DbContext
     {

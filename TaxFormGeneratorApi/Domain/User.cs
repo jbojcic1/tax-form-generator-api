@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TaxFormGeneratorApi.Bll
+namespace TaxFormGeneratorApi.Domain
 {
     public class User
     {

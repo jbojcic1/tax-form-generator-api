@@ -13,6 +13,20 @@
         <e p="Controllers" t="Include">
           <e p="ValuesController.cs" t="Include" />
         </e>
+        <e p="DAL" t="Include">
+          <e p="Configurations" t="Include">
+            <e p="UserConfiguration.cs" t="Include" />
+          </e>
+          <e p="TaxFormGeneratorContext.cs" t="Include" />
+        </e>
+        <e p="Domain" t="Include">
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20190329091524_InitialCreate.cs" t="Include" />
+          <e p="20190329091524_InitialCreate.Designer.cs" t="Include" />
+          <e p="TaxFormGeneratorContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -26,38 +40,6 @@
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="TaxFormGeneratorApi.csproj" t="IncludeRecursive" />
-      </e>
-      <e p="TaxFormGeneratorApi.Bll" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp2.2" t="Include">
-              <e p="TaxFormGeneratorApi.Bll.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="TaxFormGeneratorApi.Bll.csproj" t="IncludeRecursive" />
-        <e p="User.cs" t="Include" />
-      </e>
-      <e p="TaxFormGeneratorApi.Dal" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="Database" t="Include">
-          <e p="Configurations" t="Include">
-            <e p="UserConfiguration.cs" t="Include" />
-          </e>
-          <e p="TaxFormGeneratorContext.cs" t="Include" />
-        </e>
-        <e p="Ioc" t="Include">
-          <e p="Ioc.cs" t="Include" />
-        </e>
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp2.2" t="Include">
-              <e p="TaxFormGeneratorApi.Dal.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="TaxFormGeneratorApi.Dal.csproj" t="IncludeRecursive" />
       </e>
       <e p="TaxFormGeneratorApi.sln" t="IncludeFlat" />
     </e>

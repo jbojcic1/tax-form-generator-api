@@ -4462,31 +4462,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
-      },
-      "TaxFormGeneratorApi.Bll/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "compile": {
-          "bin/placeholder/TaxFormGeneratorApi.Bll.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TaxFormGeneratorApi.Bll.dll": {}
-        }
-      },
-      "TaxFormGeneratorApi.Dal/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.2.3",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "2.2.0",
-          "TaxFormGeneratorApi.Bll": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TaxFormGeneratorApi.Dal.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TaxFormGeneratorApi.Dal.dll": {}
-        }
       }
     }
   },
@@ -12190,24 +12165,14 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
-    },
-    "TaxFormGeneratorApi.Bll/1.0.0": {
-      "type": "project",
-      "path": "../TaxFormGeneratorApi.Bll/TaxFormGeneratorApi.Bll.csproj",
-      "msbuildProject": "../TaxFormGeneratorApi.Bll/TaxFormGeneratorApi.Bll.csproj"
-    },
-    "TaxFormGeneratorApi.Dal/1.0.0": {
-      "type": "project",
-      "path": "../TaxFormGeneratorApi.Dal/TaxFormGeneratorApi.Dal.csproj",
-      "msbuildProject": "../TaxFormGeneratorApi.Dal/TaxFormGeneratorApi.Dal.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
-      "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
+      "Microsoft.EntityFrameworkCore >= 2.2.3",
       "Microsoft.NETCore.App >= 2.2.0",
-      "TaxFormGeneratorApi.Dal >= 1.0.0"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 2.2.0"
     ]
   },
   "packageFolders": {
@@ -12227,7 +12192,7 @@
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/jbojcic/.config/NuGet/NuGet.Config"
+        "/Users/jbojcic/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -12237,11 +12202,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {
-            "/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Dal/TaxFormGeneratorApi.Dal.csproj": {
-              "projectPath": "/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi.Dal/TaxFormGeneratorApi.Dal.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -12259,16 +12220,19 @@
             "version": "[2.2.0, )",
             "autoReferenced": true
           },
-          "Microsoft.AspNetCore.Razor.Design": {
-            "suppressParent": "All",
+          "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[2.2.0, )"
+            "version": "[2.2.3, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "target": "Package",
+            "version": "[2.2.0, )"
           }
         },
         "imports": [

@@ -3,10 +3,6 @@
 /Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.runtimeconfig.dev.json
 /Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.dll
 /Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.pdb
-/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.Bll.dll
-/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.Dal.dll
-/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.Dal.pdb
-/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.Bll.pdb
 /Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.csprojAssemblyReference.cache
 /Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.csproj.CoreCompileInputs.cache
 /Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.RazorAssemblyInfo.cache
@@ -14,6 +10,5 @@
 /Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.AssemblyInfoInputs.cache
 /Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.AssemblyInfo.cs
 /Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.RazorTargetAssemblyInfo.cache
-/Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.csproj.CopyComplete
 /Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.dll
 /Users/jbojcic/Projects/TaxFormGeneratorApi/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.pdb
