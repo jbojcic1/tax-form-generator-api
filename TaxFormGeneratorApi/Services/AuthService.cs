@@ -16,6 +16,7 @@ namespace TaxFormGeneratorApi.Services
         private const int AccessTokenTtlInMinutes = 1;
         private const int RefreshTokenTtlInMinutes = 2; // Five days
         private const string AuthFailedMessage = "Invalid email and/or password.";
+        private const string InvalidTokenMessage = "Invalid token.";
         
         private readonly IRepository<User> userRepository;
         private readonly ITokenProviderService tokenProvider;
@@ -71,27 +72,21 @@ namespace TaxFormGeneratorApi.Services
 
             if (user == null)
             {
-                return new RefreshModel
-                {
-                    ErrorMessage = "Invalid token."
-                };
+                return new RefreshModel { ErrorMessage = InvalidTokenMessage };
             }
 
             var validationMetadata = this.tokenProvider.ValidateAndDecode(refreshToken);
 
             if (!validationMetadata.Valid)
             {
-                return new RefreshModel
-                {
-                    ErrorMessage = validationMetadata.ValidationMessage
-                };
+                return new RefreshModel { ErrorMessage = validationMetadata.ValidationMessage };
             }
 
             var expiry = DateTime.UtcNow.AddMinutes(RefreshTokenTtlInMinutes);
             
             return new RefreshModel {
-                Token     = this.tokenProvider.CreateToken(user, expiry),
-                ExpiresIn = AccessTokenTtlInMinutes * 60
+                AccessToken = this.tokenProvider.CreateToken(user, expiry),
+                ExpiresIn   = AccessTokenTtlInMinutes * 60
             };
         }
     }
@@ -113,7 +108,7 @@ namespace TaxFormGeneratorApi.Services
 
     public class RefreshModel
     {
-        public string Token { get; set; }
+        public string AccessToken { get; set; }
         
         public int ExpiresIn { get; set; }
         

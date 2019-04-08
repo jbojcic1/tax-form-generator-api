@@ -8,8 +8,6 @@ namespace TaxFormGeneratorApi.Dal
     public interface IRepository<TEntity> 
         where TEntity : class, IEntity
     {
-        TEntity Find(params object[] keyValues);
-
         TEntity GetOne(int entityId);
         
         TEntity GetOneOrNone(int entityId);

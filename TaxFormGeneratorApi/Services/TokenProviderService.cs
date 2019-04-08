@@ -26,6 +26,9 @@ namespace TaxFormGeneratorApi.Services
         private readonly string audience;
         private readonly TokenValidationParameters validationParmeters;
         private readonly JwtSecurityTokenHandler tokenHandler;
+        
+        private const string InvalidTokenMessage = "Invalid token.";
+        private const string TokenExpiredMessage = "Token expired.";
 
         public TokenProviderService(string key, string issuer, string audience)
         {
@@ -76,17 +79,17 @@ namespace TaxFormGeneratorApi.Services
             }
             catch (SecurityTokenExpiredException exception)
             {
-                message = "Token expired.";
+                message = TokenExpiredMessage;
             }
             catch (SecurityTokenValidationException stvex)
             {
                 // The token failed validation!
-                message = "Invalid token.";
+                message = InvalidTokenMessage;
             }
             catch (ArgumentException argex)
             {
                 // The token was not well-formed or was invalid for some other reason.
-                message = "Invalid token.";
+                message = TokenExpiredMessage;
             }
             
             return new TokenValidationMetadata

@@ -2,7 +2,7 @@ namespace TaxFormGeneratorApi.Dtos
 {
     public class RefreshTokenResponseDto
     {
-        public string Token { get; set; }
+        public string AccessToken { get; set; }
 
         public int ExpiresIn { get; set; }
     }

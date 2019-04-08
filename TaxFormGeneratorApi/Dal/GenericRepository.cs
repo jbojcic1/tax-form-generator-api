@@ -16,29 +16,24 @@ namespace TaxFormGeneratorApi.Dal
             this.DbContext = dbContext;
         }
 
-        public TEntity Find(params object[] keyValues)
-        {
-            return this.DbContext.Set<TEntity>().Find(keyValues);
-        }
-
         public TEntity GetOne(int entityId)
         {
-            return this.Query().Single(entity => entity.Id == entityId);
+            return this.Query().AsNoTracking().Single(entity => entity.Id == entityId);
         }
 
         public TEntity GetOneOrNone(int entityId)
         {
-            return this.Query().SingleOrDefault(entity => entity.Id == entityId);
+            return this.Query().AsNoTracking().SingleOrDefault(entity => entity.Id == entityId);
         }
 
         public IEnumerable<TEntity> GetBy(Func<TEntity, bool> predicate)
         {
-            return this.Query().Where(predicate).ToList();
+            return this.Query().AsNoTracking().Where(predicate).ToList();
         }
         
         public TEntity GetOneOrNoneBy(Func<TEntity, bool> predicate)
         {
-            return this.Query().SingleOrDefault(predicate);
+            return this.Query().AsNoTracking().SingleOrDefault(predicate);
         }
 
         public void Insert(TEntity entity)

@@ -45,7 +45,7 @@ namespace TaxFormGeneratorApi.Controllers
             // TODO: use auto mapper
             return Ok(new RefreshTokenResponseDto
             {
-                Token = response.Token,
+                AccessToken = response.AccessToken,
                 ExpiresIn = response.ExpiresIn
             });
         }
