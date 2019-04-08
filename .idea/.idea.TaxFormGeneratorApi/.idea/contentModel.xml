@@ -11,20 +11,34 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AccountsController.cs" t="Include" />
+          <e p="AuthController.cs" t="Include" />
           <e p="ValuesController.cs" t="Include" />
         </e>
         <e p="DAL" t="Include">
           <e p="Configurations" t="Include">
             <e p="UserConfiguration.cs" t="Include" />
           </e>
+          <e p="GenericRepository.cs" t="Include" />
+          <e p="IRepository.cs" t="Include" />
           <e p="TaxFormGeneratorContext.cs" t="Include" />
         </e>
         <e p="Domain" t="Include">
+          <e p="IEntity.cs" t="Include" />
           <e p="User.cs" t="Include" />
+        </e>
+        <e p="Dtos" t="Include">
+          <e p="AuthDto.cs" t="Include" />
+          <e p="CredentialsDto.cs" t="Include" />
+          <e p="RefreshTokenDto.cs" t="Include" />
+          <e p="RefreshTokenResponseDto.cs" t="Include" />
+          <e p="RegistrationDto.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
           <e p="20190329091524_InitialCreate.cs" t="Include" />
           <e p="20190329091524_InitialCreate.Designer.cs" t="Include" />
+          <e p="20190405112427_AddPasswardHashAndSalt.cs" t="Include" />
+          <e p="20190405112427_AddPasswardHashAndSalt.Designer.cs" t="Include" />
           <e p="TaxFormGeneratorContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -37,6 +51,12 @@
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="AccountService.cs" t="Include" />
+          <e p="AuthService.cs" t="Include" />
+          <e p="PasswordHasher.cs" t="Include" />
+          <e p="TokenProviderService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="TaxFormGeneratorApi.csproj" t="IncludeRecursive" />
