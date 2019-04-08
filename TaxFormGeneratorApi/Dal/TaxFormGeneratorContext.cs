@@ -12,11 +12,15 @@ namespace TaxFormGeneratorApi.Dal
 
         public DbSet<User> Users { get; set; }
         public DbSet<UserSettings> UserSettings { get; set; }
+        public DbSet<SalaryJOPPD> SalaryJOPPDs { get; set; }
+        public DbSet<DividendJOPPD> DividendJOPPDs { get; set; }
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new UserSettingsConfiguration());
+            modelBuilder.ApplyConfiguration(new SalaryJOPPDConfiguration());
+            modelBuilder.ApplyConfiguration(new DividendJOPPDConfiguration());
         }
     }
 }

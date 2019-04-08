@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace TaxFormGeneratorApi.Domain
 {
@@ -19,5 +20,9 @@ namespace TaxFormGeneratorApi.Domain
         public string RefreshToken { get; set; }
         
         public virtual UserSettings UserSettings { get; set; }
+        
+        public virtual List<SalaryJOPPD> SalaryJOPPDs { get; set; }
+        
+        public virtual List<DividendJOPPD> DividendJOPPDs { get; set; }
     }
 }

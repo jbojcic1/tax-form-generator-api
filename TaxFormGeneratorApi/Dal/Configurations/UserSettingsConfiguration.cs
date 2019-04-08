@@ -4,7 +4,7 @@ using TaxFormGeneratorApi.Domain;
 
 namespace TaxFormGeneratorApi.Dal.Configurations
 {    
-    public class UserSettingsConfiguration: IEntityTypeConfiguration<UserSettings>
+    public class UserSettingsConfiguration : IEntityTypeConfiguration<UserSettings>
     {
         public void Configure(EntityTypeBuilder<UserSettings> builder)
         {
