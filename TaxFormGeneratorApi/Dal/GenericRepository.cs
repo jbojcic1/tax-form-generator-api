@@ -44,7 +44,14 @@ namespace TaxFormGeneratorApi.Dal
         
         public void Update(TEntity entity)
         {
-            this.Commit(); // TODO: rethink
+            // This needs to be used instead of just getting entry and setting it's state because of owned types.
+            // When entity has owned types we need to set state to modified for each owned type or otherwise they will
+            // be left our from the update query.
+            this.DbContext.ChangeTracker.TrackGraph(entity, e => {
+                e.Entry.State = EntityState.Modified;
+            });
+            
+            this.Commit();
         }
 
         public void Remove(params TEntity[] entities)

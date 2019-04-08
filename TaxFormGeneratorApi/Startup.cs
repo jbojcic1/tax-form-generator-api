@@ -58,6 +58,7 @@ namespace TaxFormGeneratorApi
             services.AddTransient(typeof(IAuthService), typeof(AuthService));         
             services.AddTransient(typeof(IPasswordHasher), typeof(PasswordHasher));         
             services.AddTransient(typeof(IAccountService), typeof(AccountService));         
+            services.AddTransient(typeof(IUserSettingsService), typeof(UserSettingsService));         
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

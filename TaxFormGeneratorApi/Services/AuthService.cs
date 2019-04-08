@@ -13,8 +13,8 @@ namespace TaxFormGeneratorApi.Services
 
     public class AuthService : IAuthService
     {
-        private const int AccessTokenTtlInMinutes = 1;
-        private const int RefreshTokenTtlInMinutes = 2; // Five days
+        private const int AccessTokenTtlInMinutes = 20;
+        private const int RefreshTokenTtlInMinutes = 60 * 24 * 5; // Five days
         private const string AuthFailedMessage = "Invalid email and/or password.";
         private const string InvalidTokenMessage = "Invalid token.";
         

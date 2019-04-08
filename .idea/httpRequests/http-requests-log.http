@@ -7,3 +7,12 @@ Content-Type: application/json
 
 ###
 
+POST http://localhost:5001/api/accounts
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "email": "a@b.com", "password": "q1w2e3r4t5", "firstName": "Bob", "lastName": "Bobovski"  }
+
+###
+

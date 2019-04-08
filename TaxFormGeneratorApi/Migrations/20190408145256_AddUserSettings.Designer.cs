@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using TaxFormGeneratorApi.Dal;
@@ -9,9 +10,10 @@ using TaxFormGeneratorApi.Dal;
 namespace TaxFormGeneratorApi.Migrations
 {
     [DbContext(typeof(TaxFormGeneratorContext))]
-    partial class TaxFormGeneratorContextModelSnapshot : ModelSnapshot
+    [Migration("20190408145256_AddUserSettings")]
+    partial class AddUserSettings
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -117,8 +119,7 @@ namespace TaxFormGeneratorApi.Migrations
                                 .IsRequired()
                                 .HasColumnName("CompanyName");
 
-                            b1.Property<string>("Oib")
-                                .IsRequired()
+                            b1.Property<int>("Oib")
                                 .HasColumnName("CompanyOib");
 
                             b1.Property<string>("Street")
@@ -163,8 +164,7 @@ namespace TaxFormGeneratorApi.Migrations
                                 .IsRequired()
                                 .HasColumnName("City");
 
-                            b1.Property<string>("Oib")
-                                .IsRequired()
+                            b1.Property<int>("Oib")
                                 .HasColumnName("PersonalOib");
 
                             b1.Property<string>("Postcode")

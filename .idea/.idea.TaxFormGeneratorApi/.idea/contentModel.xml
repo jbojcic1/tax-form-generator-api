@@ -13,11 +13,13 @@
         <e p="Controllers" t="Include">
           <e p="AccountsController.cs" t="Include" />
           <e p="AuthController.cs" t="Include" />
+          <e p="SettingsController.cs" t="Include" />
           <e p="ValuesController.cs" t="Include" />
         </e>
         <e p="DAL" t="Include">
           <e p="Configurations" t="Include">
             <e p="UserConfiguration.cs" t="Include" />
+            <e p="UserSettingsConfiguration.cs" t="Include" />
           </e>
           <e p="GenericRepository.cs" t="Include" />
           <e p="IRepository.cs" t="Include" />
@@ -26,6 +28,7 @@
         <e p="Domain" t="Include">
           <e p="IEntity.cs" t="Include" />
           <e p="User.cs" t="Include" />
+          <e p="UserSettings.cs" t="Include" />
         </e>
         <e p="Dtos" t="Include">
           <e p="AuthDto.cs" t="Include" />
@@ -33,12 +36,17 @@
           <e p="RefreshTokenDto.cs" t="Include" />
           <e p="RefreshTokenResponseDto.cs" t="Include" />
           <e p="RegistrationDto.cs" t="Include" />
+          <e p="UserSettingsDto.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
           <e p="20190329091524_InitialCreate.cs" t="Include" />
           <e p="20190329091524_InitialCreate.Designer.cs" t="Include" />
           <e p="20190405112427_AddPasswardHashAndSalt.cs" t="Include" />
           <e p="20190405112427_AddPasswardHashAndSalt.Designer.cs" t="Include" />
+          <e p="20190408145256_AddUserSettings.cs" t="Include" />
+          <e p="20190408145256_AddUserSettings.Designer.cs" t="Include" />
+          <e p="20190408161755_OibsToString.cs" t="Include" />
+          <e p="20190408161755_OibsToString.Designer.cs" t="Include" />
           <e p="TaxFormGeneratorContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -57,6 +65,7 @@
           <e p="AuthService.cs" t="Include" />
           <e p="PasswordHasher.cs" t="Include" />
           <e p="TokenProviderService.cs" t="Include" />
+          <e p="UserSettingsService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="TaxFormGeneratorApi.csproj" t="IncludeRecursive" />

@@ -17,6 +17,7 @@ namespace TaxFormGeneratorApi.Domain
         public string Salt { get; set; }
         
         public string RefreshToken { get; set; }
-
+        
+        public virtual UserSettings UserSettings { get; set; }
     }
 }

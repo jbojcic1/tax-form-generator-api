@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5595c0b-0224-4207-a58c-de50cdb71776" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaxFormGeneratorApi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaxFormGeneratorApi/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TaxFormGeneratorApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaxFormGeneratorApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/Dal/GenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/Dal/GenericRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/Dal/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/Dal/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/RefreshTokenResponseDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/RefreshTokenResponseDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/Dal/TaxFormGeneratorContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/Dal/TaxFormGeneratorContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/Domain/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/Domain/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/Migrations/TaxFormGeneratorContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/Migrations/TaxFormGeneratorContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/Services/AuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/Services/AuthService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/Services/TokenProviderService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/Services/TokenProviderService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.pdb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,63 +30,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/AuthService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="77" column="65" selection-start-line="77" selection-start-column="65" selection-end-line="77" selection-end-column="65" />
+            <state relative-caret-position="71">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
               <folding>
-                <marker date="1554723409277" expanded="false" signature="6:110" ph="..." />
-                <marker date="1554723409277" expanded="true" signature="150:3965" ph="{...}" />
-                <marker date="1554723409277" expanded="true" signature="186:317" ph="{...}" />
-                <marker date="1554723409277" expanded="true" signature="362:3402" ph="{...}" />
-                <marker date="1554723409277" expanded="true" signature="1011:1170" ph="{...}" />
-                <marker date="1554723409277" expanded="true" signature="1240:2538" ph="{...}" />
-                <marker date="1554723409277" expanded="true" signature="1363:1483" ph="{...}" />
-                <marker date="1554723409277" expanded="true" signature="1625:1745" ph="{...}" />
-                <marker date="1554723409277" expanded="true" signature="2243:2527" ph="{...}" />
-                <marker date="1554723409277" expanded="true" signature="2601:3396" ph="{...}" />
-                <marker date="1554723409277" expanded="true" signature="2738:2846" ph="{...}" />
-                <marker date="1554723409277" expanded="true" signature="2980:3105" ph="{...}" />
-                <marker date="1554723409277" expanded="true" signature="3235:3385" ph="{...}" />
-                <marker date="1554723409277" expanded="true" signature="3434:3762" ph="{...}" />
-                <marker date="1554723409277" expanded="true" signature="3793:3963" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/TokenProviderService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
-              <folding>
-                <marker date="1554723409273" expanded="false" signature="6:242" ph="..." />
-                <marker date="1554723409273" expanded="true" signature="282:3822" ph="{...}" />
-                <marker date="1554723409273" expanded="true" signature="327:521" ph="{...}" />
-                <marker date="1554723409273" expanded="true" signature="584:3618" ph="{...}" />
-                <marker date="1554723409273" expanded="true" signature="1144:1846" ph="{...}" />
-                <marker date="1554723409273" expanded="true" signature="1482:1772" ph="{...}" />
-                <marker date="1554723409273" expanded="true" signature="1909:2333" ph="{...}" />
-                <marker date="1554723409273" expanded="true" signature="2401:2466" ph="{...}" />
-                <marker date="1554723409273" expanded="true" signature="2544:3612" ph="{...}" />
-                <marker date="1554723409273" expanded="true" signature="2710:2847" ph="{...}" />
-                <marker date="1554723409273" expanded="true" signature="2907:2982" ph="{...}" />
-                <marker date="1554723409273" expanded="true" signature="3041:3164" ph="{...}" />
-                <marker date="1554723409273" expanded="true" signature="3208:3370" ph="{...}" />
-                <marker date="1554723409273" expanded="true" signature="3443:3601" ph="{...}" />
-                <marker date="1554723409273" expanded="true" signature="3660:3820" ph="{...}" />
+                <marker date="1554737710587" expanded="false" signature="6:110" ph="..." />
+                <marker date="1554737710587" expanded="true" signature="150:3976" ph="{...}" />
+                <marker date="1554737710587" expanded="true" signature="186:317" ph="{...}" />
+                <marker date="1554737710587" expanded="true" signature="362:3413" ph="{...}" />
+                <marker date="1554737710587" expanded="true" signature="1022:1181" ph="{...}" />
+                <marker date="1554737710587" expanded="true" signature="1251:2549" ph="{...}" />
+                <marker date="1554737710587" expanded="true" signature="1374:1494" ph="{...}" />
+                <marker date="1554737710587" expanded="true" signature="1636:1756" ph="{...}" />
+                <marker date="1554737710587" expanded="true" signature="2254:2538" ph="{...}" />
+                <marker date="1554737710587" expanded="true" signature="2612:3407" ph="{...}" />
+                <marker date="1554737710587" expanded="true" signature="2749:2857" ph="{...}" />
+                <marker date="1554737710587" expanded="true" signature="2991:3116" ph="{...}" />
+                <marker date="1554737710587" expanded="true" signature="3246:3396" ph="{...}" />
+                <marker date="1554737710587" expanded="true" signature="3445:3773" ph="{...}" />
+                <marker date="1554737710587" expanded="true" signature="3804:3974" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/RefreshTokenResponseDto.cs">
+        <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Migrations/20190408161755_OibsToString.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="288">
+              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding>
-                <marker date="1554723193054" expanded="true" signature="34:183" ph="{...}" />
-                <marker date="1554723193054" expanded="true" signature="77:181" ph="{...}" />
+                <marker date="1554740275138" expanded="true" signature="89:1142" ph="{...}" />
+                <marker date="1554740275138" expanded="true" signature="141:1140" ph="{...}" />
+                <marker date="1554740275138" expanded="true" signature="217:639" ph="{...}" />
+                <marker date="1554740275138" expanded="true" signature="712:1134" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/TokenProviderService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+              <folding>
+                <marker date="1554738441228" expanded="false" signature="6:242" ph="..." />
+                <marker date="1554738441228" expanded="true" signature="282:3830" ph="{...}" />
+                <marker date="1554738441228" expanded="true" signature="327:521" ph="{...}" />
+                <marker date="1554738441228" expanded="true" signature="584:3626" ph="{...}" />
+                <marker date="1554738441228" expanded="true" signature="1144:1846" ph="{...}" />
+                <marker date="1554738441228" expanded="true" signature="1482:1772" ph="{...}" />
+                <marker date="1554738441228" expanded="true" signature="1909:2341" ph="{...}" />
+                <marker date="1554738441228" expanded="true" signature="2409:2474" ph="{...}" />
+                <marker date="1554738441228" expanded="true" signature="2552:3620" ph="{...}" />
+                <marker date="1554738441228" expanded="true" signature="2718:2855" ph="{...}" />
+                <marker date="1554738441228" expanded="true" signature="2915:2990" ph="{...}" />
+                <marker date="1554738441228" expanded="true" signature="3049:3172" ph="{...}" />
+                <marker date="1554738441228" expanded="true" signature="3216:3378" ph="{...}" />
+                <marker date="1554738441228" expanded="true" signature="3451:3609" ph="{...}" />
+                <marker date="1554738441228" expanded="true" signature="3668:3828" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -87,105 +97,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/IRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
-                <marker date="1554723144140" expanded="false" signature="6:100" ph="..." />
-                <marker date="1554723144140" expanded="true" signature="135:613" ph="{...}" />
-                <marker date="1554723144140" expanded="true" signature="219:611" ph="{...}" />
+                <marker date="1554740865530" expanded="false" signature="6:100" ph="..." />
+                <marker date="1554740865530" expanded="true" signature="135:613" ph="{...}" />
+                <marker date="1554740865530" expanded="true" signature="219:611" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/RefreshTokenDto.cs">
+        <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/SettingsController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="304">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <marker date="1554471169493" expanded="true" signature="34:132" ph="{...}" />
-                <marker date="1554471169493" expanded="true" signature="69:130" ph="{...}" />
+                <marker date="1554740991606" expanded="true" signature="6:171" ph="..." />
+                <marker date="1554740991606" expanded="true" signature="214:1021" ph="{...}" />
+                <marker date="1554740991606" expanded="true" signature="337:1019" ph="{...}" />
+                <marker date="1554740991606" expanded="true" signature="487:567" ph="{...}" />
+                <marker date="1554740991606" expanded="true" signature="623:795" ph="{...}" />
+                <marker date="1554740991606" expanded="true" signature="874:1013" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/AuthDto.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <marker date="1554469245286" expanded="true" signature="34:298" ph="{...}" />
-                <marker date="1554469245286" expanded="true" signature="61:296" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Startup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-              <folding>
-                <marker date="1554722453769" expanded="true" signature="6:503" ph="..." />
-                <marker date="1554722453769" expanded="true" signature="534:3277" ph="{...}" />
-                <marker date="1554722453769" expanded="true" signature="561:3275" ph="{...}" />
-                <marker date="1554722453769" expanded="true" signature="620:683" ph="{...}" />
-                <marker date="1554722453769" expanded="true" signature="906:2620" ph="{...}" />
-                <marker date="1554722453769" expanded="true" signature="1472:1646" ph="{...}" />
-                <marker date="1554722453769" expanded="true" signature="1735:1866" ph="{...}" />
-                <marker date="1554722453769" expanded="true" signature="2808:3269" ph="{...}" />
-                <marker date="1554722453769" expanded="true" signature="2855:2932" ph="{...}" />
-                <marker date="1554722453769" expanded="true" signature="2949:3152" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/GenericRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="11" column="61" lean-forward="true" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+            <state relative-caret-position="960">
+              <caret line="64" column="49" lean-forward="true" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
               <folding>
-                <marker date="1554723144143" expanded="false" signature="6:137" ph="..." />
-                <marker date="1554723144143" expanded="true" signature="172:1916" ph="{...}" />
-                <marker date="1554723144143" expanded="true" signature="280:1914" ph="{...}" />
-                <marker date="1554723144143" expanded="true" signature="417:477" ph="{...}" />
-                <marker date="1554723144143" expanded="true" signature="522:630" ph="{...}" />
-                <marker date="1554723144143" expanded="true" signature="681:798" ph="{...}" />
-                <marker date="1554723144143" expanded="true" signature="872:966" ph="{...}" />
-                <marker date="1554723144143" expanded="true" signature="1044:1139" ph="{...}" />
-                <marker date="1554723144143" expanded="true" signature="1183:1285" ph="{...}" />
-                <marker date="1554723144143" expanded="true" signature="1337:1401" ph="{...}" />
-                <marker date="1554723144143" expanded="true" signature="1456:1568" ph="{...}" />
-                <marker date="1554723144143" expanded="true" signature="1623:1693" ph="{...}" />
-                <marker date="1554723144143" expanded="true" signature="1729:1813" ph="{...}" />
-                <marker date="1554723144143" expanded="true" signature="1846:1908" ph="{...}" />
+                <marker date="1554753096536" expanded="false" signature="6:137" ph="..." />
+                <marker date="1554753096536" expanded="true" signature="172:2332" ph="{...}" />
+                <marker date="1554753096536" expanded="true" signature="280:2330" ph="{...}" />
+                <marker date="1554753096536" expanded="true" signature="417:477" ph="{...}" />
+                <marker date="1554753096536" expanded="true" signature="522:630" ph="{...}" />
+                <marker date="1554753096536" expanded="true" signature="681:798" ph="{...}" />
+                <marker date="1554753096536" expanded="true" signature="872:966" ph="{...}" />
+                <marker date="1554753096536" expanded="true" signature="1044:1139" ph="{...}" />
+                <marker date="1554753096536" expanded="true" signature="1183:1285" ph="{...}" />
+                <marker date="1554753096536" expanded="true" signature="1337:1817" ph="{...}" />
+                <marker date="1554753096536" expanded="true" signature="1360:1630" ph="/* This needs to be used instead of just getting entry and setting it's state because of owned types. ... */" />
+                <marker date="1554753096536" expanded="true" signature="1696:1765" ph="{...}" />
+                <marker date="1554753096536" expanded="true" signature="1872:1984" ph="{...}" />
+                <marker date="1554753096536" expanded="true" signature="2039:2109" ph="{...}" />
+                <marker date="1554753096536" expanded="true" signature="2145:2229" ph="{...}" />
+                <marker date="1554753096536" expanded="true" signature="2262:2324" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/PasswordHasher.cs">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/859A178A-A665-453D-A9AD-795A852D9500/42/d78f127c/ChangeTracker.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              <folding>
-                <marker date="1554462769270" expanded="false" signature="6:138" ph="..." />
-                <marker date="1554462769270" expanded="true" signature="178:1744" ph="{...}" />
-                <marker date="1554462769270" expanded="true" signature="217:381" ph="{...}" />
-                <marker date="1554462769270" expanded="true" signature="432:1742" ph="{...}" />
-                <marker date="1554462769270" expanded="true" signature="514:741" ph="{...}" />
-                <marker date="1554462769270" expanded="true" signature="830:987" ph="{...}" />
-                <marker date="1554462769270" expanded="true" signature="1026:1298" ph="{...}" />
-                <marker date="1554462769270" expanded="true" signature="1198:1262" ph="{...}" />
-                <marker date="1554462769270" expanded="true" signature="1365:1736" ph="{...}" />
-              </folding>
+            <state relative-caret-position="218">
+              <caret line="226" column="8" selection-start-line="226" selection-start-column="8" selection-end-line="226" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -193,10 +164,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/AuthController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+            <state relative-caret-position="93">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
-                <marker date="1554723218645" expanded="true" signature="6:143" ph="..." />
+                <marker date="1554723218645" expanded="false" signature="6:143" ph="..." />
                 <marker date="1554723218645" expanded="true" signature="186:1645" ph="{...}" />
                 <marker date="1554723218645" expanded="true" signature="289:1643" ph="{...}" />
                 <marker date="1554723218645" expanded="true" signature="411:475" ph="{...}" />
@@ -204,6 +175,61 @@
                 <marker date="1554723218645" expanded="true" signature="822:1074" ph="{...}" />
                 <marker date="1554723218645" expanded="true" signature="1230:1637" ph="{...}" />
                 <marker date="1554723218645" expanded="true" signature="1511:1625" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/UserSettingsService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+              <folding>
+                <marker date="1554749848268" expanded="true" signature="6:96" ph="..." />
+                <marker date="1554749848268" expanded="true" signature="136:5943" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="180:292" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="353:1381" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="528:614" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="662:824" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="890:1375" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="1100:1197" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="1214:1365" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="1433:5941" ph="{...}" />
+                <marker date="1554749848268" expanded="false" signature="1565:3722" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="1627:3711" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="1696:2031" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="2092:2334" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="2401:2728" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="2793:3541" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="3610:3697" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="3822:5935" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="3881:5924" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="3980:4315" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="4373:4556" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="4620:4947" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="5009:5757" ph="{...}" />
+                <marker date="1554749848268" expanded="true" signature="5823:5910" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/Configurations/UserSettingsConfiguration.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="973">
+              <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+              <folding>
+                <marker date="1554735169215" expanded="false" signature="6:125" ph="..." />
+                <marker date="1554735169215" expanded="true" signature="175:3925" ph="{...}" />
+                <marker date="1554735169215" expanded="true" signature="264:3923" ph="{...}" />
+                <marker date="1554735169215" expanded="true" signature="341:3917" ph="{...}" />
+                <marker date="1554735169215" expanded="true" signature="487:1135" ph="{...}" />
+                <marker date="1554735169215" expanded="true" signature="1245:1546" ph="{...}" />
+                <marker date="1554735169215" expanded="true" signature="1662:2301" ph="{...}" />
+                <marker date="1554735169215" expanded="true" signature="2415:3421" ph="{...}" />
+                <marker date="1554735169215" expanded="true" signature="3539:3676" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -222,42 +248,55 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8335BAF6-0077-4CFE-A29E-A01CC7AB0A5D/12/b223c8cc/Predicate`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/68C92FB2-7110-4678-9BFC-2256692EB57E/66/2985503d/GenericIdentity.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/AuthController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/135D9922-BA33-4B93-BF98-C67E1CF39FAC/cf/e3b1b570/CspParameters.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Domain/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/RefreshTokenResponseDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Domain/IEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/68C92FB2-7110-4678-9BFC-2256692EB57E/64/d363b074/ClaimsIdentity.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/GenericRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/RefreshTokenDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/68C92FB2-7110-4678-9BFC-2256692EB57E/15/4a0087bf/Claim.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Migrations/20190405112427_AddPasswardHashAndSalt.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/427697FE-42B7-459B-A530-2FB76D339D3B/a3/ac960cc2/AuthenticationServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/TaxFormGeneratorContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/Configurations/UserConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/AccountService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87E8CE02-3EE4-404D-9082-6C8A5038171A/46/89f79914/IActionResult.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8335BAF6-0077-4CFE-A29E-A01CC7AB0A5D/5e/39958315/Thread.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8335BAF6-0077-4CFE-A29E-A01CC7AB0A5D/b1/f7905c3d/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8335BAF6-0077-4CFE-A29E-A01CC7AB0A5D/ec/5ed11cae/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/CredentialsDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0366DF96-A306-4DFB-8E8E-8F21BCA68142/7c/1773e7e2/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Migrations/TaxFormGeneratorContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Migrations/20190329091524_InitialCreate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B38355A3-FDAE-48AA-92E2-C6559475BF15/6d/224be823/KeyDerivation.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/AuthService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/RegistrationDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/dc/dbb3ca64/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/AccountsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/859A178A-A665-453D-A9AD-795A852D9500/35/998e406b/ModelBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/AuthDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/PasswordHasher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D70A7D9E-B5F0-4C89-B0EA-698947CAE270/6/JwtSecurityTokenHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D70A7D9E-B5F0-4C89-B0EA-698947CAE270/5/JwtSecurityToken.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/TokenProviderService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1571C05F-E355-4EE9-BF63-E97B4EF6249D/28/RsaSecurityKey.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/135D9922-BA33-4B93-BF98-C67E1CF39FAC/cf/e3b1b570/CspParameters.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Domain/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Migrations/20190408161755_OibsToString.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/RefreshTokenDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/859A178A-A665-453D-A9AD-795A852D9500/42/d78f127c/ChangeTracker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/427697FE-42B7-459B-A530-2FB76D339D3B/a3/ac960cc2/AuthenticationServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/AccountService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8335BAF6-0077-4CFE-A29E-A01CC7AB0A5D/5e/39958315/Thread.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8335BAF6-0077-4CFE-A29E-A01CC7AB0A5D/ec/5ed11cae/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0366DF96-A306-4DFB-8E8E-8F21BCA68142/7c/1773e7e2/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/AuthService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Domain/UserSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/Configurations/UserSettingsConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/RegistrationDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/AccountsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Migrations/20190408145256_AddUserSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/SettingsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/UserSettingsDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/UserSettingsService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/TokenProviderService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -268,7 +307,6 @@
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi.Dal/Database/Configurations/UserConfiguration.cs" />
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi.Dal/Database/TaxFormGeneratorContext.cs" />
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi.Dal/Ioc/Ioc.cs" />
-        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Dal/TaxFormGeneratorContext.cs" />
         <option value="$PROJECT_DIR$/test/Class1.cs" />
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi/TaxFormGeneratorApi.csproj" />
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Domain/IEntity.cs" />
@@ -284,9 +322,7 @@
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/AuthResponseDto.cs" />
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/TokenDto.cs" />
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Services/PasswordHasher.cs" />
-        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Domain/User.cs" />
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Migrations/TaxFormGeneratorContextModelSnapshot.cs" />
-        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Dal/Configurations/UserConfiguration.cs" />
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/LoginDto.cs" />
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Services/AccountService.cs" />
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/ValuesController.cs" />
@@ -296,13 +332,23 @@
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/AuthDto.cs" />
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/RefreshTokenDto.cs" />
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/AccountsController.cs" />
-        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Startup.cs" />
-        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Dal/IRepository.cs" />
-        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Dal/GenericRepository.cs" />
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/AuthController.cs" />
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/RefreshTokenResponseDto.cs" />
+        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Domain/UserTaxSettings.cs" />
+        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Dal/Configurations/UserConfiguration.cs" />
+        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Domain/User.cs" />
+        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Dal/TaxFormGeneratorContext.cs" />
+        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Dal/Configurations/UserSettingsConfiguration.cs" />
+        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Startup.cs" />
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Services/AuthService.cs" />
         <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Services/TokenProviderService.cs" />
+        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Services/IdentityService.cs" />
+        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Domain/UserSettings.cs" />
+        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/UserSettingsDto.cs" />
+        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Dal/IRepository.cs" />
+        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/SettingsController.cs" />
+        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Services/UserSettingsService.cs" />
+        <option value="$PROJECT_DIR$/TaxFormGeneratorApi/Dal/GenericRepository.cs" />
       </list>
     </option>
   </component>
@@ -340,6 +386,31 @@
               <item name="TaxFormGeneratorApi" type="24d0babc:SolutionExplorerModelNode" />
               <item name="TaxFormGeneratorApi" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Dal" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TaxFormGeneratorApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TaxFormGeneratorApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dal" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Configurations" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TaxFormGeneratorApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TaxFormGeneratorApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TaxFormGeneratorApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TaxFormGeneratorApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dtos" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TaxFormGeneratorApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TaxFormGeneratorApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Migrations" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -410,12 +481,12 @@
       <workItem from="1553798375460" duration="5788000" />
       <workItem from="1553850345022" duration="3465000" />
       <workItem from="1553877369521" duration="12791000" />
-      <workItem from="1554453416940" duration="23523000" />
+      <workItem from="1554453416940" duration="39296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45567000" />
+    <option name="totallyTimeSpent" value="61340000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,8 +508,8 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35508022" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2691162" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35451838" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3247269" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -497,112 +568,71 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/AuthController.cs</url>
-          <line>40</line>
-          <properties documentPath="$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/AuthController.cs" initialLine="34">
-            <startOffsets>
-              <option value="1253" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1318" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/AuthController.cs</url>
-          <line>22</line>
-          <properties documentPath="$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/AuthController.cs" initialLine="22">
-            <startOffsets>
-              <option value="583" />
-            </startOffsets>
-            <endOffsets>
-              <option value="657" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/AuthService.cs</url>
           <line>72</line>
           <properties documentPath="$PROJECT_DIR$/TaxFormGeneratorApi/Services/AuthService.cs" initialLine="63">
             <startOffsets>
-              <option value="2721" />
+              <option value="2732" />
             </startOffsets>
             <endOffsets>
-              <option value="2738" />
+              <option value="2749" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/GenericRepository.cs</url>
+          <line>50</line>
+          <properties documentPath="$PROJECT_DIR$/TaxFormGeneratorApi/Dal/GenericRepository.cs" initialLine="55">
+            <startOffsets>
+              <option value="1714" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1751" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/AuthService.cs</url>
+          <line>56</line>
+          <properties documentPath="$PROJECT_DIR$/TaxFormGeneratorApi/Services/AuthService.cs" initialLine="56">
+            <startOffsets>
+              <option value="2140" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2173" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/AuthService.cs</url>
+          <line>59</line>
+          <properties documentPath="$PROJECT_DIR$/TaxFormGeneratorApi/Services/AuthService.cs" initialLine="59">
+            <startOffsets>
+              <option value="2233" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2539" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>this.DbContext.Entry(entity)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/859A178A-A665-453D-A9AD-795A852D9500/35/998e406b/ModelBuilder.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="301" column="32" selection-start-line="301" selection-start-column="32" selection-end-line="301" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi.Dal/Ioc/Ioc.cs" />
-    <entry file="file://$PROJECT_DIR$/test/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/TaxFormGeneratorApi.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/427697FE-42B7-459B-A530-2FB76D339D3B/a3/ac960cc2/AuthenticationServiceCollectionExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/Dao/User/UserDao.cs" />
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/Dao/User/UserRepository.cs" />
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/TaxFormGeneratorContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="40" />
-          <folding>
-            <marker date="1553848420145" expanded="false" signature="6:116" ph="..." />
-            <marker date="1553848420145" expanded="true" signature="151:571" ph="{...}" />
-            <marker date="1553848420145" expanded="true" signature="206:569" ph="{...}" />
-            <marker date="1553848420145" expanded="true" signature="330:341" ph="{...}" />
-            <marker date="1553848420145" expanded="true" signature="473:563" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/Dao/Test.cs" />
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/Dao/IDao.cs" />
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/Dao/UserDao.cs" />
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/Dao/GenericDao.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8335BAF6-0077-4CFE-A29E-A01CC7AB0A5D/12/b223c8cc/Predicate`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/135D9922-BA33-4B93-BF98-C67E1CF39FAC/cf/e3b1b570/CspParameters.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1571C05F-E355-4EE9-BF63-E97B4EF6249D/28/RsaSecurityKey.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D70A7D9E-B5F0-4C89-B0EA-698947CAE270/5/JwtSecurityToken.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -721,11 +751,11 @@
         <state relative-caret-position="112">
           <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
-            <marker date="1554463467909" expanded="false" signature="28:256" ph="..." />
-            <marker date="1554463467909" expanded="true" signature="298:1815" ph="{...}" />
-            <marker date="1554463467909" expanded="true" signature="420:1813" ph="{...}" />
-            <marker date="1554463467909" expanded="true" signature="496:1807" ph="{...}" />
-            <marker date="1554463467909" expanded="true" signature="890:1762" ph="{...}" />
+            <marker date="1554740275139" expanded="false" signature="28:256" ph="..." />
+            <marker date="1554740275139" expanded="true" signature="9585:9658" ph="{...}" />
+            <marker date="1554740275139" expanded="true" signature="9585:9656" ph="{...}" />
+            <marker date="1554740275139" expanded="true" signature="9585:9650" ph="{...}" />
+            <marker date="1554740275139" expanded="true" signature="9585:9605" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -742,41 +772,6 @@
             <marker date="1553850924543" expanded="true" signature="409:810" ph="{...}" />
             <marker date="1553850924543" expanded="true" signature="849:945" ph="{...}" />
             <marker date="1553850924543" expanded="true" signature="1207:1298" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Domain/IEntity.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <marker date="1553879353882" expanded="true" signature="36:105" ph="{...}" />
-            <marker date="1553879353882" expanded="true" signature="67:103" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Domain/User.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <marker date="1554462769273" expanded="true" signature="51:458" ph="{...}" />
-            <marker date="1554462769273" expanded="true" signature="85:456" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/Configurations/UserConfiguration.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <marker date="1554463703238" expanded="false" signature="6:125" ph="..." />
-            <marker date="1554463703238" expanded="true" signature="175:809" ph="{...}" />
-            <marker date="1554463703238" expanded="true" signature="244:807" ph="{...}" />
-            <marker date="1554463703238" expanded="true" signature="313:801" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -911,37 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/ValuesController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-          <folding>
-            <marker date="1554465890191" expanded="false" signature="6:170" ph="..." />
-            <marker date="1554465890191" expanded="true" signature="213:1035" ph="{...}" />
-            <marker date="1554465890191" expanded="true" signature="334:1033" ph="{...}" />
-            <marker date="1554465890191" expanded="true" signature="439:513" ph="{...}" />
-            <marker date="1554465890191" expanded="true" signature="616:662" ph="{...}" />
-            <marker date="1554465890191" expanded="true" signature="759:779" ph="{...}" />
-            <marker date="1554465890191" expanded="true" signature="891:911" ph="{...}" />
-            <marker date="1554465890191" expanded="true" signature="1007:1027" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/AccountsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <marker date="1554722453773" expanded="false" signature="6:133" ph="..." />
-            <marker date="1554722453773" expanded="true" signature="176:733" ph="{...}" />
-            <marker date="1554722453773" expanded="true" signature="283:731" ph="{...}" />
-            <marker date="1554722453773" expanded="true" signature="421:491" ph="{...}" />
-            <marker date="1554722453773" expanded="true" signature="580:725" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/RefreshTokenDto.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -960,60 +924,6 @@
           <folding>
             <marker date="1554469245286" expanded="true" signature="34:298" ph="{...}" />
             <marker date="1554469245286" expanded="true" signature="61:296" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-          <folding>
-            <marker date="1554722453769" expanded="true" signature="6:503" ph="..." />
-            <marker date="1554722453769" expanded="true" signature="534:3277" ph="{...}" />
-            <marker date="1554722453769" expanded="true" signature="561:3275" ph="{...}" />
-            <marker date="1554722453769" expanded="true" signature="620:683" ph="{...}" />
-            <marker date="1554722453769" expanded="true" signature="906:2620" ph="{...}" />
-            <marker date="1554722453769" expanded="true" signature="1472:1646" ph="{...}" />
-            <marker date="1554722453769" expanded="true" signature="1735:1866" ph="{...}" />
-            <marker date="1554722453769" expanded="true" signature="2808:3269" ph="{...}" />
-            <marker date="1554722453769" expanded="true" signature="2855:2932" ph="{...}" />
-            <marker date="1554722453769" expanded="true" signature="2949:3152" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/IRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <marker date="1554723144140" expanded="false" signature="6:100" ph="..." />
-            <marker date="1554723144140" expanded="true" signature="135:613" ph="{...}" />
-            <marker date="1554723144140" expanded="true" signature="219:611" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/GenericRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="11" column="61" lean-forward="true" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-          <folding>
-            <marker date="1554723144143" expanded="false" signature="6:137" ph="..." />
-            <marker date="1554723144143" expanded="true" signature="172:1916" ph="{...}" />
-            <marker date="1554723144143" expanded="true" signature="280:1914" ph="{...}" />
-            <marker date="1554723144143" expanded="true" signature="417:477" ph="{...}" />
-            <marker date="1554723144143" expanded="true" signature="522:630" ph="{...}" />
-            <marker date="1554723144143" expanded="true" signature="681:798" ph="{...}" />
-            <marker date="1554723144143" expanded="true" signature="872:966" ph="{...}" />
-            <marker date="1554723144143" expanded="true" signature="1044:1139" ph="{...}" />
-            <marker date="1554723144143" expanded="true" signature="1183:1285" ph="{...}" />
-            <marker date="1554723144143" expanded="true" signature="1337:1401" ph="{...}" />
-            <marker date="1554723144143" expanded="true" signature="1456:1568" ph="{...}" />
-            <marker date="1554723144143" expanded="true" signature="1623:1693" ph="{...}" />
-            <marker date="1554723144143" expanded="true" signature="1729:1813" ph="{...}" />
-            <marker date="1554723144143" expanded="true" signature="1846:1908" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1047,12 +957,239 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/AccountsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <marker date="1554722453773" expanded="false" signature="6:133" ph="..." />
+            <marker date="1554722453773" expanded="true" signature="176:733" ph="{...}" />
+            <marker date="1554722453773" expanded="true" signature="283:731" ph="{...}" />
+            <marker date="1554722453773" expanded="true" signature="421:491" ph="{...}" />
+            <marker date="1554722453773" expanded="true" signature="580:725" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Domain/IEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1553879353882" expanded="true" signature="36:105" ph="{...}" />
+            <marker date="1553879353882" expanded="true" signature="67:103" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Migrations/20190408140506_AddUserSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/TaxFormGeneratorContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <marker date="1554734933042" expanded="false" signature="6:116" ph="..." />
+            <marker date="1554734933042" expanded="true" signature="151:711" ph="{...}" />
+            <marker date="1554734933042" expanded="true" signature="206:709" ph="{...}" />
+            <marker date="1554734933042" expanded="true" signature="330:341" ph="{...}" />
+            <marker date="1554734933042" expanded="true" signature="535:703" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <marker date="1554465890191" expanded="false" signature="6:170" ph="..." />
+            <marker date="1554465890191" expanded="true" signature="213:1035" ph="{...}" />
+            <marker date="1554465890191" expanded="true" signature="334:1033" ph="{...}" />
+            <marker date="1554465890191" expanded="true" signature="439:513" ph="{...}" />
+            <marker date="1554465890191" expanded="true" signature="616:662" ph="{...}" />
+            <marker date="1554465890191" expanded="true" signature="759:779" ph="{...}" />
+            <marker date="1554465890191" expanded="true" signature="891:911" ph="{...}" />
+            <marker date="1554465890191" expanded="true" signature="1007:1027" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="60" column="90" selection-start-line="60" selection-start-column="90" selection-end-line="60" selection-end-column="90" />
+          <folding>
+            <marker date="1554737531244" expanded="false" signature="6:503" ph="..." />
+            <marker date="1554737531244" expanded="true" signature="534:3380" ph="{...}" />
+            <marker date="1554737531244" expanded="true" signature="561:3378" ph="{...}" />
+            <marker date="1554737531244" expanded="true" signature="620:683" ph="{...}" />
+            <marker date="1554737531244" expanded="true" signature="906:2723" ph="{...}" />
+            <marker date="1554737531244" expanded="true" signature="1472:1646" ph="{...}" />
+            <marker date="1554737531244" expanded="true" signature="1735:1866" ph="{...}" />
+            <marker date="1554737531244" expanded="true" signature="2911:3372" ph="{...}" />
+            <marker date="1554737531244" expanded="true" signature="2958:3035" ph="{...}" />
+            <marker date="1554737531244" expanded="true" signature="3052:3255" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/68C92FB2-7110-4678-9BFC-2256692EB57E/64/d363b074/ClaimsIdentity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/68C92FB2-7110-4678-9BFC-2256692EB57E/15/4a0087bf/Claim.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="87" column="11" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/68C92FB2-7110-4678-9BFC-2256692EB57E/66/2985503d/GenericIdentity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <marker date="1554737842895" expanded="true" signature="0:347" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1554737842895" expanded="false" signature="355:412" ph="..." />
+            <marker date="1554737842895" expanded="true" signature="449:2098" ph="{...}" />
+            <marker date="1554737842895" expanded="true" signature="499:2096" ph="{...}" />
+            <marker date="1554737842895" expanded="true" signature="616:785" ph="{...}" />
+            <marker date="1554737842895" expanded="true" signature="839:1090" ph="{...}" />
+            <marker date="1554737842895" expanded="true" signature="1187:1273" ph="{...}" />
+            <marker date="1554737842895" expanded="true" signature="1317:1386" ph="{...}" />
+            <marker date="1554737842895" expanded="true" signature="1433:1499" ph="{...}" />
+            <marker date="1554737842895" expanded="true" signature="1449:1493" ph="{...}" />
+            <marker date="1554737842895" expanded="true" signature="1532:1598" ph="{...}" />
+            <marker date="1554737842895" expanded="true" signature="1548:1592" ph="{...}" />
+            <marker date="1554737842895" expanded="true" signature="1645:1711" ph="{...}" />
+            <marker date="1554737842895" expanded="true" signature="1661:1705" ph="{...}" />
+            <marker date="1554737842895" expanded="true" signature="1753:1831" ph="{...}" />
+            <marker date="1554737842895" expanded="true" signature="1769:1825" ph="{...}" />
+            <marker date="1554737842895" expanded="true" signature="1864:2092" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/dc/dbb3ca64/ControllerBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="250" column="27" selection-start-line="250" selection-start-column="27" selection-end-line="250" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/IdentityService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/Configurations/UserConfiguration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <marker date="1554463703238" expanded="false" signature="6:125" ph="..." />
+            <marker date="1554463703238" expanded="true" signature="175:809" ph="{...}" />
+            <marker date="1554463703238" expanded="true" signature="244:807" ph="{...}" />
+            <marker date="1554463703238" expanded="true" signature="313:801" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Domain/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <marker date="1554733868662" expanded="true" signature="51:529" ph="{...}" />
+            <marker date="1554733868662" expanded="true" signature="85:527" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dtos/UserSettingsDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="50" column="62" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+          <folding>
+            <marker date="1554740248391" expanded="true" signature="34:1896" ph="{...}" />
+            <marker date="1554740248391" expanded="true" signature="69:433" ph="{...}" />
+            <marker date="1554740248391" expanded="true" signature="476:718" ph="{...}" />
+            <marker date="1554740248391" expanded="true" signature="757:947" ph="{...}" />
+            <marker date="1554740248391" expanded="true" signature="989:1243" ph="{...}" />
+            <marker date="1554740248391" expanded="true" signature="1283:1792" ph="{...}" />
+            <marker date="1554740248391" expanded="true" signature="1834:1894" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Migrations/20190408145256_AddUserSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305">
+          <caret line="35" column="75" selection-start-line="35" selection-start-column="75" selection-end-line="35" selection-end-column="75" />
+          <folding>
+            <marker date="1554735176713" expanded="false" signature="6:101" ph="..." />
+            <marker date="1554735176713" expanded="true" signature="143:4084" ph="{...}" />
+            <marker date="1554735176713" expanded="true" signature="198:4082" ph="{...}" />
+            <marker date="1554735176713" expanded="true" signature="274:3710" ph="{...}" />
+            <marker date="1554735176713" expanded="true" signature="613:2649" ph="{...}" />
+            <marker date="1554735176713" expanded="true" signature="2688:3095" ph="{...}" />
+            <marker date="1554735176713" expanded="true" signature="3783:4076" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Domain/UserSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <marker date="1554740248382" expanded="false" signature="6:84" ph="..." />
+            <marker date="1554740248382" expanded="true" signature="122:1988" ph="{...}" />
+            <marker date="1554740248382" expanded="true" signature="164:655" ph="{...}" />
+            <marker date="1554740248382" expanded="true" signature="690:924" ph="{...}" />
+            <marker date="1554740248382" expanded="true" signature="959:1096" ph="{...}" />
+            <marker date="1554740248382" expanded="true" signature="1130:1349" ph="{...}" />
+            <marker date="1554740248382" expanded="true" signature="1382:1891" ph="{...}" />
+            <marker date="1554740248382" expanded="true" signature="1926:1986" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/Configurations/UserSettingsConfiguration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="973">
+          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+          <folding>
+            <marker date="1554735169215" expanded="false" signature="6:125" ph="..." />
+            <marker date="1554735169215" expanded="true" signature="175:3925" ph="{...}" />
+            <marker date="1554735169215" expanded="true" signature="264:3923" ph="{...}" />
+            <marker date="1554735169215" expanded="true" signature="341:3917" ph="{...}" />
+            <marker date="1554735169215" expanded="true" signature="487:1135" ph="{...}" />
+            <marker date="1554735169215" expanded="true" signature="1245:1546" ph="{...}" />
+            <marker date="1554735169215" expanded="true" signature="1662:2301" ph="{...}" />
+            <marker date="1554735169215" expanded="true" signature="2415:3421" ph="{...}" />
+            <marker date="1554735169215" expanded="true" signature="3539:3676" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/AuthController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        <state relative-caret-position="93">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding>
-            <marker date="1554723218645" expanded="true" signature="6:143" ph="..." />
+            <marker date="1554723218645" expanded="false" signature="6:143" ph="..." />
             <marker date="1554723218645" expanded="true" signature="186:1645" ph="{...}" />
             <marker date="1554723218645" expanded="true" signature="289:1643" ph="{...}" />
             <marker date="1554723218645" expanded="true" signature="411:475" ph="{...}" />
@@ -1064,50 +1201,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/AuthService.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/859A178A-A665-453D-A9AD-795A852D9500/42/d78f127c/ChangeTracker.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="77" column="65" selection-start-line="77" selection-start-column="65" selection-end-line="77" selection-end-column="65" />
+        <state relative-caret-position="218">
+          <caret line="226" column="8" selection-start-line="226" selection-start-column="8" selection-end-line="226" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/IRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
-            <marker date="1554723409277" expanded="false" signature="6:110" ph="..." />
-            <marker date="1554723409277" expanded="true" signature="150:3965" ph="{...}" />
-            <marker date="1554723409277" expanded="true" signature="186:317" ph="{...}" />
-            <marker date="1554723409277" expanded="true" signature="362:3402" ph="{...}" />
-            <marker date="1554723409277" expanded="true" signature="1011:1170" ph="{...}" />
-            <marker date="1554723409277" expanded="true" signature="1240:2538" ph="{...}" />
-            <marker date="1554723409277" expanded="true" signature="1363:1483" ph="{...}" />
-            <marker date="1554723409277" expanded="true" signature="1625:1745" ph="{...}" />
-            <marker date="1554723409277" expanded="true" signature="2243:2527" ph="{...}" />
-            <marker date="1554723409277" expanded="true" signature="2601:3396" ph="{...}" />
-            <marker date="1554723409277" expanded="true" signature="2738:2846" ph="{...}" />
-            <marker date="1554723409277" expanded="true" signature="2980:3105" ph="{...}" />
-            <marker date="1554723409277" expanded="true" signature="3235:3385" ph="{...}" />
-            <marker date="1554723409277" expanded="true" signature="3434:3762" ph="{...}" />
-            <marker date="1554723409277" expanded="true" signature="3793:3963" ph="{...}" />
+            <marker date="1554740865530" expanded="false" signature="6:100" ph="..." />
+            <marker date="1554740865530" expanded="true" signature="135:613" ph="{...}" />
+            <marker date="1554740865530" expanded="true" signature="219:611" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/UserSettingsService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <marker date="1554749848268" expanded="true" signature="6:96" ph="..." />
+            <marker date="1554749848268" expanded="true" signature="136:5943" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="180:292" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="353:1381" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="528:614" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="662:824" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="890:1375" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="1100:1197" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="1214:1365" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="1433:5941" ph="{...}" />
+            <marker date="1554749848268" expanded="false" signature="1565:3722" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="1627:3711" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="1696:2031" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="2092:2334" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="2401:2728" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="2793:3541" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="3610:3697" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="3822:5935" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="3881:5924" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="3980:4315" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="4373:4556" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="4620:4947" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="5009:5757" ph="{...}" />
+            <marker date="1554749848268" expanded="true" signature="5823:5910" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/TokenProviderService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+        <state relative-caret-position="-17">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
           <folding>
-            <marker date="1554723409273" expanded="false" signature="6:242" ph="..." />
-            <marker date="1554723409273" expanded="true" signature="282:3822" ph="{...}" />
-            <marker date="1554723409273" expanded="true" signature="327:521" ph="{...}" />
-            <marker date="1554723409273" expanded="true" signature="584:3618" ph="{...}" />
-            <marker date="1554723409273" expanded="true" signature="1144:1846" ph="{...}" />
-            <marker date="1554723409273" expanded="true" signature="1482:1772" ph="{...}" />
-            <marker date="1554723409273" expanded="true" signature="1909:2333" ph="{...}" />
-            <marker date="1554723409273" expanded="true" signature="2401:2466" ph="{...}" />
-            <marker date="1554723409273" expanded="true" signature="2544:3612" ph="{...}" />
-            <marker date="1554723409273" expanded="true" signature="2710:2847" ph="{...}" />
-            <marker date="1554723409273" expanded="true" signature="2907:2982" ph="{...}" />
-            <marker date="1554723409273" expanded="true" signature="3041:3164" ph="{...}" />
-            <marker date="1554723409273" expanded="true" signature="3208:3370" ph="{...}" />
-            <marker date="1554723409273" expanded="true" signature="3443:3601" ph="{...}" />
-            <marker date="1554723409273" expanded="true" signature="3660:3820" ph="{...}" />
+            <marker date="1554738441228" expanded="false" signature="6:242" ph="..." />
+            <marker date="1554738441228" expanded="true" signature="282:3830" ph="{...}" />
+            <marker date="1554738441228" expanded="true" signature="327:521" ph="{...}" />
+            <marker date="1554738441228" expanded="true" signature="584:3626" ph="{...}" />
+            <marker date="1554738441228" expanded="true" signature="1144:1846" ph="{...}" />
+            <marker date="1554738441228" expanded="true" signature="1482:1772" ph="{...}" />
+            <marker date="1554738441228" expanded="true" signature="1909:2341" ph="{...}" />
+            <marker date="1554738441228" expanded="true" signature="2409:2474" ph="{...}" />
+            <marker date="1554738441228" expanded="true" signature="2552:3620" ph="{...}" />
+            <marker date="1554738441228" expanded="true" signature="2718:2855" ph="{...}" />
+            <marker date="1554738441228" expanded="true" signature="2915:2990" ph="{...}" />
+            <marker date="1554738441228" expanded="true" signature="3049:3172" ph="{...}" />
+            <marker date="1554738441228" expanded="true" signature="3216:3378" ph="{...}" />
+            <marker date="1554738441228" expanded="true" signature="3451:3609" ph="{...}" />
+            <marker date="1554738441228" expanded="true" signature="3668:3828" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/AuthService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <marker date="1554737710587" expanded="false" signature="6:110" ph="..." />
+            <marker date="1554737710587" expanded="true" signature="150:3976" ph="{...}" />
+            <marker date="1554737710587" expanded="true" signature="186:317" ph="{...}" />
+            <marker date="1554737710587" expanded="true" signature="362:3413" ph="{...}" />
+            <marker date="1554737710587" expanded="true" signature="1022:1181" ph="{...}" />
+            <marker date="1554737710587" expanded="true" signature="1251:2549" ph="{...}" />
+            <marker date="1554737710587" expanded="true" signature="1374:1494" ph="{...}" />
+            <marker date="1554737710587" expanded="true" signature="1636:1756" ph="{...}" />
+            <marker date="1554737710587" expanded="true" signature="2254:2538" ph="{...}" />
+            <marker date="1554737710587" expanded="true" signature="2612:3407" ph="{...}" />
+            <marker date="1554737710587" expanded="true" signature="2749:2857" ph="{...}" />
+            <marker date="1554737710587" expanded="true" signature="2991:3116" ph="{...}" />
+            <marker date="1554737710587" expanded="true" signature="3246:3396" ph="{...}" />
+            <marker date="1554737710587" expanded="true" signature="3445:3773" ph="{...}" />
+            <marker date="1554737710587" expanded="true" signature="3804:3974" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Migrations/20190408161755_OibsToString.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <marker date="1554740275138" expanded="true" signature="89:1142" ph="{...}" />
+            <marker date="1554740275138" expanded="true" signature="141:1140" ph="{...}" />
+            <marker date="1554740275138" expanded="true" signature="217:639" ph="{...}" />
+            <marker date="1554740275138" expanded="true" signature="712:1134" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Controllers/SettingsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1554740991606" expanded="true" signature="6:171" ph="..." />
+            <marker date="1554740991606" expanded="true" signature="214:1021" ph="{...}" />
+            <marker date="1554740991606" expanded="true" signature="337:1019" ph="{...}" />
+            <marker date="1554740991606" expanded="true" signature="487:567" ph="{...}" />
+            <marker date="1554740991606" expanded="true" signature="623:795" ph="{...}" />
+            <marker date="1554740991606" expanded="true" signature="874:1013" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Dal/GenericRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="49" lean-forward="true" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
+          <folding>
+            <marker date="1554753096536" expanded="false" signature="6:137" ph="..." />
+            <marker date="1554753096536" expanded="true" signature="172:2332" ph="{...}" />
+            <marker date="1554753096536" expanded="true" signature="280:2330" ph="{...}" />
+            <marker date="1554753096536" expanded="true" signature="417:477" ph="{...}" />
+            <marker date="1554753096536" expanded="true" signature="522:630" ph="{...}" />
+            <marker date="1554753096536" expanded="true" signature="681:798" ph="{...}" />
+            <marker date="1554753096536" expanded="true" signature="872:966" ph="{...}" />
+            <marker date="1554753096536" expanded="true" signature="1044:1139" ph="{...}" />
+            <marker date="1554753096536" expanded="true" signature="1183:1285" ph="{...}" />
+            <marker date="1554753096536" expanded="true" signature="1337:1817" ph="{...}" />
+            <marker date="1554753096536" expanded="true" signature="1360:1630" ph="/* This needs to be used instead of just getting entry and setting it's state because of owned types. ... */" />
+            <marker date="1554753096536" expanded="true" signature="1696:1765" ph="{...}" />
+            <marker date="1554753096536" expanded="true" signature="1872:1984" ph="{...}" />
+            <marker date="1554753096536" expanded="true" signature="2039:2109" ph="{...}" />
+            <marker date="1554753096536" expanded="true" signature="2145:2229" ph="{...}" />
+            <marker date="1554753096536" expanded="true" signature="2262:2324" ph="{...}" />
           </folding>
         </state>
       </provider>
