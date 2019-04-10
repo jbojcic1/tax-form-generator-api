@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TaxFormGeneratorApi.Dtos;
+using TaxFormGeneratorApi.Infrastructure;
 using TaxFormGeneratorApi.Services;
 
 namespace TaxFormGeneratorApi.Controllers
@@ -9,7 +10,7 @@ namespace TaxFormGeneratorApi.Controllers
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    public class FormsController : ControllerBase
+    public class FormsController : AuthControllerBase
     {
         private readonly IFormService formService;
         
@@ -21,8 +22,7 @@ namespace TaxFormGeneratorApi.Controllers
         [HttpGet]
         public IEnumerable<FormResponseDto> Get()
         {
-            var userId = int.Parse(User.Identity.Name);
-            return this.formService.GetAll(userId);
+            return this.formService.GetAll(LoggedInUserId);
         }
         
         // TODO: see how to handle this better instead of having controller action per form type
@@ -31,16 +31,14 @@ namespace TaxFormGeneratorApi.Controllers
         [Route("SALARY_JOPPD")]
         public void SaveSalaryJOPPD(SalaryJOPPDDto form)
         {
-            var userId = int.Parse(User.Identity.Name);
-            this.formService.SaveForm(userId, form);
+            this.formService.SaveForm(LoggedInUserId, form);
         }
         
         [HttpPost]
         [Route("DIVIDEND_JOPPD")]
         public void SaveDividendJOPPD(DividendJOPPDDto form)
         {
-            var userId = int.Parse(User.Identity.Name);
-            this.formService.SaveForm(userId, form);
+            this.formService.SaveForm(LoggedInUserId, form);
         }
     }
 }

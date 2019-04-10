@@ -49,7 +49,11 @@ namespace TaxFormGeneratorApi.Services
 
         public string CreateToken(User user, DateTime expiry)
         {
-            var identity = new ClaimsIdentity(new GenericIdentity(user.Id.ToString(), "jwt"));
+            var identity = new ClaimsIdentity();
+            identity.AddClaim(new Claim("id", user.Id.ToString()));
+            identity.AddClaim(new Claim("firstName", user.FirstName));
+            identity.AddClaim(new Claim("lastName", user.LastName));
+            identity.AddClaim(new Claim("email", user.Email));
 
             var token = new JwtSecurityToken(
                 this.issuer, 

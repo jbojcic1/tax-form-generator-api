@@ -15,7 +15,6 @@
           <e p="AuthController.cs" t="Include" />
           <e p="FormsController.cs" t="Include" />
           <e p="SettingsController.cs" t="Include" />
-          <e p="ValuesController.cs" t="Include" />
         </e>
         <e p="DAL" t="Include">
           <e p="Configurations" t="Include">
@@ -46,6 +45,9 @@
           <e p="RegistrationDto.cs" t="Include" />
           <e p="SalaryJOPPDDto.cs" t="Include" />
           <e p="UserSettingsDto.cs" t="Include" />
+        </e>
+        <e p="Infrastructure" t="Include">
+          <e p="AuthControllerBase.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
           <e p="20190329091524_InitialCreate.cs" t="Include" />
