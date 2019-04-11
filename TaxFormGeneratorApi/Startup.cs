@@ -18,6 +18,8 @@ namespace TaxFormGeneratorApi
 {
     public class Startup
     {
+        private const string OriginPolicyName = "allowOrigin";
+        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -28,6 +30,15 @@ namespace TaxFormGeneratorApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy(OriginPolicyName,
+                builder =>
+                {
+                    builder.WithOrigins("http://localhost:4200");
+                });
+            });
+            
             var jwtConfig = Configuration.GetSection("Auth").GetSection("JWT");
             var key = jwtConfig.GetValue<string>("Key");
             var issuer = jwtConfig.GetValue<string>("Issuer");
@@ -74,6 +85,8 @@ namespace TaxFormGeneratorApi
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseCors(OriginPolicyName);
 
             app.UseAuthentication();
 
