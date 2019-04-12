@@ -35,7 +35,7 @@ namespace TaxFormGeneratorApi
                 options.AddPolicy(OriginPolicyName,
                 builder =>
                 {
-                    builder.WithOrigins("http://localhost:4200").AllowAnyHeader();
+                    builder.WithOrigins("http://localhost:4200").AllowAnyHeader().WithExposedHeaders("WWW-Authenticate");
                 });
             });
             
