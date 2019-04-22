@@ -90,6 +90,12 @@
       <e p="TaxFormGeneratorApi.sln" t="IncludeFlat" />
       <e p="Tests" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="Utilities.cs" t="Include" />
+        </e>
+        <e p="Infrastructure" t="Include">
+          <e p="CustomWebApplicationFactory.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -100,6 +106,7 @@
         </e>
         <e p="SettingsControllerTest.cs" t="Include" />
         <e p="Tests.csproj" t="IncludeRecursive" />
+        <e p="UserSettingsServiceTests.cs" t="Include" />
       </e>
     </e>
   </component>
