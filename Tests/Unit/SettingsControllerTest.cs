@@ -8,7 +8,7 @@ using TaxFormGeneratorApi.Dtos;
 using TaxFormGeneratorApi.Services;
 using Xunit;
 
-namespace Tests
+namespace Tests.Unit
 {
     public class SettingsControllerTest
     {

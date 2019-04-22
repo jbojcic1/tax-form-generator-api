@@ -9,7 +9,7 @@ using Tests.Helpers;
 using Tests.Infrastructure;
 using Xunit;
 
-namespace Tests
+namespace Tests.Integration
 {
     public class UserSettingsServiceTests : IClassFixture<CustomWebApplicationFactory<TaxFormGeneratorApi.Startup>>, IDisposable
     {
