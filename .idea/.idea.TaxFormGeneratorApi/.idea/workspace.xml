@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5595c0b-0224-4207-a58c-de50cdb71776" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaxFormGeneratorApi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaxFormGeneratorApi/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaxFormGeneratorApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaxFormGeneratorApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaxFormGeneratorApi/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaxFormGeneratorApi/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/bin/Debug/netcoreapp2.2/TaxFormGeneratorApi.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.RazorTargetAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/Debug/netcoreapp2.2/TaxFormGeneratorApi.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxFormGeneratorApi/obj/TaxFormGeneratorApi.csproj.EntityFrameworkCore.targets" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Infrastructure/AuthControllerBase.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
-              <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
               <folding>
                 <marker date="1554904276367" expanded="false" signature="6:61" ph="..." />
                 <marker date="1554904276367" expanded="true" signature="107:317" ph="{...}" />
@@ -94,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/TokenProviderService.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="89">
-              <caret line="52" column="67" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="52" selection-end-column="67" />
+              <caret line="52" column="67" selection-start-line="51" selection-start-column="12" selection-end-line="52" selection-end-column="67" />
               <folding>
                 <marker date="1554902174278" expanded="false" signature="6:242" ph="..." />
                 <marker date="1554902174278" expanded="true" signature="282:4055" ph="{...}" />
@@ -116,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/SettingsControllerTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-61">
-              <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+            <state relative-caret-position="469">
+              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
               <folding>
                 <marker date="1555923655884" expanded="true" signature="6:239" ph="..." />
                 <marker date="1555923655884" expanded="true" signature="256:2925" ph="{...}" />
@@ -162,6 +169,21 @@
                 <marker date="1554740248391" expanded="true" signature="989:1243" ph="{...}" />
                 <marker date="1554740248391" expanded="true" signature="1283:1792" ph="{...}" />
                 <marker date="1554740248391" expanded="true" signature="1834:1894" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <marker date="1553798050260" expanded="false" signature="6:255" ph="..." />
+                <marker date="1553798050260" expanded="true" signature="286:613" ph="{...}" />
+                <marker date="1553798050260" expanded="true" signature="313:611" ph="{...}" />
+                <marker date="1553798050260" expanded="true" signature="366:440" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -363,6 +385,29 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="TaxFormGeneratorApi" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TaxFormGeneratorApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TaxFormGeneratorApi" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TaxFormGeneratorApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tests" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TaxFormGeneratorApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TaxFormGeneratorApi" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name=".NETCoreApp 2.2" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -428,12 +473,12 @@
       <workItem from="1553877369521" duration="12791000" />
       <workItem from="1554453416940" duration="48001000" />
       <workItem from="1554991660377" duration="1144000" />
-      <workItem from="1555858622230" duration="6655000" />
+      <workItem from="1555858622230" duration="6881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77844000" />
+    <option name="totallyTimeSpent" value="78070000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,6 +491,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -525,32 +571,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Tests/SettingsControllerTest.cs</url>
-          <line>72</line>
-          <properties documentPath="$PROJECT_DIR$/Tests/SettingsControllerTest.cs" initialLine="72">
-            <startOffsets>
-              <option value="2464" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2495" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Tests/SettingsControllerTest.cs</url>
-          <line>81</line>
-          <properties documentPath="$PROJECT_DIR$/Tests/SettingsControllerTest.cs" initialLine="81">
-            <startOffsets>
-              <option value="2773" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2805" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -939,19 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <marker date="1553798050260" expanded="false" signature="6:255" ph="..." />
-            <marker date="1553798050260" expanded="true" signature="286:613" ph="{...}" />
-            <marker date="1553798050260" expanded="true" signature="313:611" ph="{...}" />
-            <marker date="1553798050260" expanded="true" signature="366:440" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -1055,7 +1062,7 @@
     <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Services/TokenProviderService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
-          <caret line="52" column="67" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="52" selection-end-column="67" />
+          <caret line="52" column="67" selection-start-line="51" selection-start-column="12" selection-end-line="52" selection-end-column="67" />
           <folding>
             <marker date="1554902174278" expanded="false" signature="6:242" ph="..." />
             <marker date="1554902174278" expanded="true" signature="282:4055" ph="{...}" />
@@ -1225,7 +1232,7 @@
     <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Infrastructure/AuthControllerBase.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
           <folding>
             <marker date="1554904276367" expanded="false" signature="6:61" ph="..." />
             <marker date="1554904276367" expanded="true" signature="107:317" ph="{...}" />
@@ -1275,8 +1282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/SettingsControllerTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+        <state relative-caret-position="469">
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
           <folding>
             <marker date="1555923655884" expanded="true" signature="6:239" ph="..." />
             <marker date="1555923655884" expanded="true" signature="256:2925" ph="{...}" />
@@ -1291,6 +1298,19 @@
             <marker date="1555923655884" expanded="true" signature="2263:2335" ph="{...}" />
             <marker date="1555923655884" expanded="true" signature="2441:2625" ph="{...}" />
             <marker date="1555923655884" expanded="true" signature="2750:2917" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaxFormGeneratorApi/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <marker date="1553798050260" expanded="false" signature="6:255" ph="..." />
+            <marker date="1553798050260" expanded="true" signature="286:613" ph="{...}" />
+            <marker date="1553798050260" expanded="true" signature="313:611" ph="{...}" />
+            <marker date="1553798050260" expanded="true" signature="366:440" ph="{...}" />
           </folding>
         </state>
       </provider>
