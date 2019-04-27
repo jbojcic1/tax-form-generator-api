@@ -45,7 +45,7 @@ namespace Tests
                 StreetNumber = "16"
             }
         };
-        
+
         public SettingsControllerTest()
         {
             var identity = new ClaimsIdentity();
@@ -53,11 +53,11 @@ namespace Tests
             var principal = new ClaimsPrincipal(identity);
             var mockContext = new Mock<HttpContext>(MockBehavior.Strict);
             mockContext.SetupGet(hc => hc.User).Returns(principal);
-            
+
             _mockService = new Mock<IUserSettingsService>();
             _mockService.Setup(service => service.Get(UserId)).Returns(_userSettings);
             _mockService.Setup(service => service.Upsert(UserId, _userSettings));
-            
+
             _controller = new SettingsController(_mockService.Object)
             {
                 ControllerContext = new ControllerContext
@@ -80,7 +80,7 @@ namespace Tests
         public void Post_WhenCalledWithUserSettingsDto_CallsUpsertOnSettingsServiceWithItAndLoggedInUserId()
         {
             _controller.Post(_userSettings);
-            
+
             _mockService.Verify(mock => mock.Upsert(UserId, _userSettings), Times.Once);
         }
     }
