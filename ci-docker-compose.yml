@@ -12,7 +12,7 @@ services:
 
   backend:
     image: jbojcic/tax-form-generator-api:latest
-    entrypoint: ../Tests/entrypoint.sh
+    entrypoint: /app/Tests/entrypoint.sh
     depends_on:
       - database
     links:
