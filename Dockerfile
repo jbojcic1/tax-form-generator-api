@@ -1,12 +1,19 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:2.2
-
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
 WORKDIR /app
 
-COPY Tests ./Tests
-COPY TaxFormGeneratorApi ./TaxFormGeneratorApi
+# copy csproj and restore as distinct layers
+COPY *.sln .
+COPY TaxFormGeneratorApi/*.csproj ./TaxFormGeneratorApi/
+COPY Tests/*.csproj ./Tests/
+RUN dotnet restore
 
-EXPOSE 5001
-EXPOSE 5000
-
+# copy everything else and build app
+COPY TaxFormGeneratorApi/. ./TaxFormGeneratorApi/
 WORKDIR /app/TaxFormGeneratorApi
-ENTRYPOINT ["dotnet", "run"]
+RUN dotnet publish -c Release -o out
+
+
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.2 AS runtime
+WORKDIR /app
+COPY --from=build /app/TaxFormGeneratorApi/out ./
+ENTRYPOINT ["dotnet", "TaxFormGeneratorApi.dll"]
