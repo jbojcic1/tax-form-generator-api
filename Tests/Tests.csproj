@@ -8,7 +8,7 @@
 
     <ItemGroup>
         <PackageReference Include="FluentAssertions.AspNetCore.Mvc" Version="2.1.0" />
-        <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.3" />
+        <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.6" />
         <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.2" />
         <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="2.2.0" />
         <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="2.2.0" />
